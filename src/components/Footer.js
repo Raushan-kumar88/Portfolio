@@ -39,11 +39,11 @@ const Footer=()=> {
                 voluptatibus harum necessitatibus.</p>
 
                 <div className="social">
-                <Link to=""><FaFacebook size={26} style={{color:"#fff",marginRight:"1rem"}} /></Link>
+                <Link to="https://www.facebook.com/raushan.gupta.7524879/"><FaFacebook size={26} style={{color:"#fff",marginRight:"1rem"}} /></Link>
                 <Link to=""><FaTwitter size={26} style={{color:"#fff",marginRight:"1rem"}} /></Link>
-                <Link to=""><FaLinkedin size={26} style={{color:"#fff",marginRight:"1rem"}} /></Link>
+                <Link to="https://www.linkedin.com/in/raushan-kumar-38413922b/"><FaLinkedin size={26} style={{color:"#fff",marginRight:"1rem"}} /></Link>
                 
-                <Link to=""><FaInstagram size={26} style={{color:"#fff",marginRight:"1rem"}} /></Link>
+                <Link to="https://www.instagram.com/raushangupta_123/"><FaInstagram size={26} style={{color:"#fff",marginRight:"1rem"}} /></Link>
 
                 </div>
 

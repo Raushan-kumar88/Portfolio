@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './prices.css'
 import {Link} from 'react-router-dom'
 const Prices = props => {
+
+    useEffect(() => {
+        const textElement = document.querySelector('.text-animation');
+        textElement.classList.add('animate');
+      }, []);
+
   return (
     <div className='pricing'>
         <div className="card-container">
@@ -16,7 +22,7 @@ const Prices = props => {
                 <Link to="/contact" className='btn'>PURCHASE NOW</Link>
             </div>
             <div className="card">
-                <h3>- Premium -</h3>
+                <h3 className='text-animation'>- Premium -</h3>
                 <span className="bar"></span>
                 <p className="btc">$ 200</p>
                 <p>- 2 Days -</p>

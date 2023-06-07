@@ -1,3 +1,12 @@
+body{
+    background: black;
+    color: white;
+}
+
+body.dark-mode {
+    background: white;
+    color: black;
+  }
 .header{
     display: flex;
     align-items: center;
@@ -15,14 +24,15 @@
 
 .nav-menu{
     display: flex;
+    padding: 0 4rem;
 }
 .nav-menu li{
     padding: 0 1rem;
     position: relative;
 }
 .nav-menu li a{
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 .hambrger{
     display: none;
